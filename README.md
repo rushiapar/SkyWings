@@ -4,7 +4,7 @@ A modern, responsive travel booking platform built entirely with **HTML, CSS, an
 Designed specifically for the **Indian market**, this project simulates a real-world travel booking experience with dynamic search, client-side data persistence, and ticket generation.
 
 🔗 **Live Demo:**  
-https://bytesec8.github.io/SkyWings/
+https://rushiapar.github.io/SkyWings/
 
 ---
 
@@ -95,4 +95,4 @@ All images are sourced from **Unsplash** and used for demonstration only.
 
 ---
 
-Built with ❤️ by **Bytesec8**
+Built with ❤️ by **Rushi Apar**

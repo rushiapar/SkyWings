@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyWings India - Travel Your Way</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="ph-fill ph-airplane-tilt"></i>
+                <div>SKYWINGS <span>INDIA</span></div>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="flights.html">Flights</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="explore.html">Explore India</a>
+                <a href="offers.html">Offers</a>
+                <a href="bookings.html">My Bookings</a>
+            </div>
+            <a href="flights.html" class="btn btn-primary btn-sm">Book Now</a>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1>Discover Incredible India</h1>
+            <p>Unbeatable deals on Flights, Hotels, and Heritage Tours.</p>
+            <div class="mt-20">
+                <a href="flights.html" class="btn btn-primary">Book Flight</a>
+                <a href="explore.html" class="btn btn-secondary" style="margin-left: 10px; background: transparent; color: white; border-color: white;">Explore</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-widget">
+            <div style="margin-bottom: 25px; display:flex; gap:30px; border-bottom:1px solid #eee; padding-bottom:15px;">
+                <a href="flights.html" style="font-weight:700; color:var(--primary); display:flex; align-items:center; gap:8px; font-size:1.1rem;"><i class="ph-fill ph-airplane-takeoff"></i> Flights</a>
+                <a href="hotels.html" style="font-weight:600; color:var(--text-light); display:flex; align-items:center; gap:8px; font-size:1.1rem;"><i class="ph-fill ph-bed"></i> Hotels</a>
+                <a href="offers.html" style="font-weight:600; color:var(--text-light); display:flex; align-items:center; gap:8px; font-size:1.1rem;"><i class="ph-fill ph-tag"></i> Offers</a>
+            </div>
+            <div class="form-grid">
+                <div class="form-group" style="grid-column: span 2;">
+                    <label>Where do you want to go?</label>
+                    <div class="input-group">
+                        <i class="ph ph-map-pin"></i>
+                        <input type="text" placeholder="Try 'Mumbai', 'Goa', or 'Raigad Fort'">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button onclick="window.location.href='flights.html'" class="btn btn-primary btn-block" style="height: 52px;">Search Availability</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section container">
+        <div class="text-center mb-20">
+            <h2 style="font-size: 2.2rem; margin-bottom: 10px;">Popular Destinations</h2>
+            <p style="color:var(--text-light)">Explore the most loved places in India</p>
+        </div>
+        
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600');">
+                    <span class="card-badge">Beach</span>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Goa</div>
+                    <div class="card-desc">Sun, sand, and sea. Experience the vibrant nightlife and Portuguese heritage.</div>
+                    <div class="card-footer">
+                        <span class="price-tag">₹4,500 <span>onwards</span></span>
+                        <a href="flights.html" class="btn btn-secondary btn-sm">Book Flight</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=600');">
+                    <span class="card-badge">Mountains</span>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Ladakh</div>
+                    <div class="card-desc">Breathtaking landscapes, high passes, and serene monasteries.</div>
+                    <div class="card-footer">
+                        <span class="price-tag">₹8,200 <span>onwards</span></span>
+                        <a href="flights.html" class="btn btn-secondary btn-sm">Book Flight</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600');">
+                    <span class="card-badge">Nature</span>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">Kerala</div>
+                    <div class="card-desc">God's Own Country. Famous for backwaters, houseboats, and tea gardens.</div>
+                    <div class="card-footer">
+                        <span class="price-tag">₹5,100 <span>onwards</span></span>
+                        <a href="flights.html" class="btn btn-secondary btn-sm">Book Flight</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #111; color: white; padding: 60px 0 20px;">
+        <div class="container">
+            <div class="grid-4">
+                <div>
+                    <div class="logo" style="margin-bottom: 20px;">
+                        <i class="ph-fill ph-airplane-tilt" style="color:white"></i>
+                        <span style="color:white">SKYWINGS</span>
+                    </div>
+                    <p style="color: #888; font-size: 0.9rem;">Connecting you to the soul of India. From the forts of Maharashtra to the peaks of Himalayas.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul style="margin-top: 15px; color: #888; line-height: 2;">
+                        <li><a href="flights.html">Flights</a></li>
+                        <li><a href="hotels.html">Hotels</a></li>
+                        <li><a href="bookings.html">My Bookings</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Support</h4>
+                    <ul style="margin-top: 15px; color: #888; line-height: 2;">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Cancellation</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul style="margin-top: 15px; color: #888; line-height: 2;">
+                        <li><i class="ph ph-phone"></i> +91 1800-SKY-WINGS</li>
+                        <li><i class="ph ph-envelope"></i> support@skywings.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center" style="border-top: 1px solid #333; padding-top: 20px; margin-top: 40px; color: #666; font-size: 0.8rem;">
+                &copy; 2026 SkyWings India. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

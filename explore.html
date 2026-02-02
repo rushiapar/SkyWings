@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - SkyWings</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i class="ph-fill ph-airplane-tilt"></i> SkyWings</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="flights.html">Flights</a>
+                <a href="hotels.html">Hotels</a>
+                <a href="explore.html" class="active">Explore</a>
+                <a href="offers.html">Offers</a>
+                <a href="bookings.html">My Bookings</a>
+            </div>
+            <button id="auth-btn" class="btn btn-primary btn-sm">Sign In</button>
+        </div>
+    </nav>
+
+    <header class="hero" style="background-image: url('https://images.unsplash.com/photo-1593444262192-5643444747eb?q=80&w=1600');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-center">
+            <h1>Incredible India</h1>
+            <p>From the Himalayas to the Indian Ocean</p>
+        </div>
+    </header>
+
+    <section class="section container">
+        <h2 class="text-center mb-20" style="margin-bottom: 40px;">Top Destinations</h2>
+        <!-- JS populates this -->
+        <div id="explore-grid" class="grid-3"></div>
+    </section>
+
+    <!-- Sign In Modal -->
+    <div class="modal-overlay" id="signin-modal">
+        <div class="modal" style="max-width: 400px;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:20px;">
+                <h2>Welcome</h2>
+                <button onclick="closeSignInModal()" class="btn btn-secondary btn-sm" style="border:none;">X</button>
+            </div>
+            <form onsubmit="handleSignIn(event)">
+                <div style="margin-bottom:15px;">
+                    <label style="display:block; margin-bottom:5px;">Email</label>
+                    <input type="email" id="signin-email" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:8px;" required>
+                </div>
+                <div style="margin-bottom:15px;">
+                    <label style="display:block; margin-bottom:5px;">Password</label>
+                    <input type="password" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:8px;" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

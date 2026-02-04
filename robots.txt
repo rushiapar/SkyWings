@@ -3,4 +3,4 @@ Allow: /
 
 Sitemap location
 
-Sitemap: https://www.google.com/search?q=https://bytesec8.github.io/SkyWings/sitemap.xml
+Sitemap: https://www.google.com/search?q=https://rushiapar.github.io/SkyWings/sitemap.xml
